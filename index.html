@@ -28,7 +28,7 @@
             font-size: 23 ; 
             text-align: center ; 
             font-family: monospace ;
-            border: black 2px solid ; 
+            border: black 4px solid ; 
         }
         
         #canvas {
@@ -40,18 +40,63 @@
     </style>
 
 <body>
+      <!-- JAVASCRIPT -->
+    <script>
+        
+        
+        //Password Generator Variables 
+        var minRandom = 0 ; 
+        var characterLength = 10 ; 
+        
+        //generator variables  
+       var specialCharacters = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")"
+                               , "-", "_", "+"] ; 
+        
+        
+        
+        
+        var password = new Array(characterLength)  ; 
+        
+        //INSERTING NUMBERS......
+        for(var i = 0; i < password.length; i++) {
+            password[i] = getRandomNumber(10) ; 
+        }
+        
+        //INSERTING SPECIAL CHARACTERS.......
+         for(var i = 0; i < password.length; i++) {
+             
+            //random number returned matches the number in the password then replace with special character 
+            if(getRandomNumber(10) != password[i]) {
+             password[i] = specialCharacters[getRandomNumber(specialCharacters.length)]; 
+            }
+        }
+        
+        
+        //Function that return a random number 
+        function getRandomNumber(x) {
+            return Math.floor((Math.random() * x) + 0) ;
+        }
+         
+        
+       
+    </script>
+    
     <center>
         <img src = "logo.png" alt = "SafeMe Logo" id = "logo">
         
-         <p id = "password"> P@$$WORD </p> 
+        <p id = "password">
+             <script> 
+               
+                 for(var i = 0; i < password.length; i++) {
+                 document.write(password[i]) ; 
+                 }
+                 
+             </script> 
+        </p> 
     </center>
     
-   
-        
-   
-   
     
- 
+    
 
 </body>
 </html>
