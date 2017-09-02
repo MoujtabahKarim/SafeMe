@@ -1,7 +1,7 @@
 # SafeMe
 Program that generates a strong password based of the user's requirements 
 
-# # BETA 
+# BETA 1.0
 Still working on the algorithm: 
 Included special characters and Numbers, just have to give everything better consistency. 
 
