@@ -1,6 +1,7 @@
 # SafeMe
-Program that generates a strong password based of the user's requirements 
+Program that generates a strong password for the user. This was programmed with Javascript 
 
+I'm just making these basic programs with Javascript for practise, still learning and getting used to the language. 
 # BETA 1.0
 Still working on the algorithm: 
 Included special characters and Numbers, just have to give everything better consistency. 
