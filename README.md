@@ -7,9 +7,9 @@ Included special characters and Numbers, just have to give everything better con
 
 ![lolo](https://user-images.githubusercontent.com/27081909/29997511-0fe25fa2-8fe3-11e7-9ac1-269bdf4a3817.PNG)
 
-#BETA 1.1
+# BETA 1.1
 Algorithm includes Capital Letters, Lower Case Letters, Special Characters and Numbers (Still needs a bit of work) 
-*Things to improve on* 
+# *Things to improve on* 
 - Add a feature that lets the user choose if they wants special characters or capitals etc
 
 ![number 1](https://user-images.githubusercontent.com/27081909/30139863-91d47604-933e-11e7-99f8-35be41ce608d.JPG)
