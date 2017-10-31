@@ -70,7 +70,6 @@
             randomisePassword() ; 
         }
         
-        
         //Function that return a random number 
         function getRandomNumber(x) {
             return Math.floor((Math.random() * x) + 0) ;
